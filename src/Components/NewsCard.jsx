@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 
 export const NewsCard = ({data}) => {
@@ -30,8 +29,4 @@ export const NewsCard = ({data}) => {
     </div>
   )
 }
-const Container =styled.div`
-display:grid,
-grid-template-columns: repeat(4,1fr),
-`
 
